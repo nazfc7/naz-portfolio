@@ -6,5 +6,4 @@
 Feel free to reach out!  
 - 📧 Email: nazfc7@gmail.com  
 - 💬 Instagram/Twitter: @nazfc7
-
-naz123456789.içen TEAMVİEWER
+
