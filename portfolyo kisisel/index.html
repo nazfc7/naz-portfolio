@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naz | Portfolyo</title>
+  <link rel="stylesheet" href="/portfolyo kisisel/css/style.css">
+</head>
+<body>
+<header class="ust-menu">
+  <nav>
+    <a href="#ana">Ana Sayfa</a>
+    <a href="#projeler">Projeler</a>
+    <a href="#hakkimda">Hakkımda</a>
+    <button id="temaButonu">🌙</button>
+    <button id="girisButonu">Giriş Yap</button>
+  </nav>
+</header>
+<hr>
+<section id="ana" class="hero">
+  <h1>Merhaba, ben Naz</h1>
+  <p>Unity üzerine çalışıyorum.</p>
+  <br>
+  <pre>kullanıcı adı : admin 
+       şifre : 1234
+  </pre>
+</section>
+<hr>
+<section id="projeler" class="projeler">
+  <h2>Projeler</h2>
+  <div class="grid">
+    <div class="kart">
+      <h3>Note Management System</h3>
+      <p>C++ ile geliştirilmiş not takip sistemi.</p>
+    </div>
+
+    <div class="kart">
+      <h3>Personal Website</h3>
+      <p>HTML & CSS ile oluşturulmuş kişisel site.</p>
+    </div>
+
+    <div class="kart">
+      <h3>Fan Page</h3>
+      <p>HTML, CSS ve JS ile hazırlanmış fan sayfası.</p>
+    </div>
+  </div>
+</section>
+<hr>
+<section class="iki-kart">
+
+  <div id="hakkimda" class="kart-bolum">
+    <h2>Hakkımda</h2>
+    <p>Ankara Üniversitesinde okuyorum. Bilgisayar programcılığı öğrencisiyim. Oyun geliştirme üzerine çalışıyorum. Hayalim riot gameste calismak :D </p>
+
+    <div class="yetenekler">
+      <span>Unity</span>
+      <span>C#</span>
+      <span>C++</span>
+    </div>
+  </div>
+
+  <div id="iletisim" class="kart-bolum">
+    <h2>İletişim</h2>
+    <form>
+      <input type="text" placeholder="Adınız" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Mesajınız" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+  </div>
+
+</section>
+<footer>
+  © Naz İçen
+</footer>
+
+<div id="girisModal" class="modal">
+  <div class="modal-icerik">
+    <span id="kapat">&times;</span>
+    <h2>Giriş Yap</h2>
+    <input type="text" id="kullaniciAdi" placeholder="Kullanıcı Adı">
+    <input type="password" id="sifre" placeholder="Şifre">
+    <button id="girisYap">Giriş</button>
+    <p id="girisMesaj"></p>
+  </div>
+</div>
+
+<script src="/portfolyo kisisel/js/script.js"></script>
+</body>
+</html>
